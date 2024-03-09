@@ -5,14 +5,14 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    background-color: #ff758f;
+    background-color: #75c8ff;
 }
 
 .valentines-day-card {
     position: relative;
     width: 400px;
     height: 300px;
-    background-color: #ff8fa3;
+    background-color: #88b3f3;
     overflow: hidden;
     border: 10px solid white;
     border-radius: 10px;
@@ -22,25 +22,25 @@ body {
 .valentines-day-card:before {
     content: "";
     position: absolute;
-    background-color: #ffb3c1;
+    background-color: #4a80f5;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     top: 140px;
     left: -25px;
-    box-shadow: 60px 20px #ffb3c1, 130px 10px #ffb3c1, 190px 20px #ffb3c1, 260px -5px #ffb3c1, 340px 20px #ffb3c1;
+    box-shadow: 60px 20px #4a80f5, 130px 10px #4a80f5, 190px 20px #4a80f5, 260px -5px #4a80f5, 340px 20px #4a80f5;
 }
 
 .valentines-day-card:after {
     content: "";
     position: absolute;
-    background-color: #ffccd5;
+    background-color: #0dc4e4;
     width: 100px;
     height: 100px;
     border-radius: 50%;
     top: 160px;
     left: -40px;
-    box-shadow: 50px 20px #ffccd5, 120px 40px #ffccd5, 200px 15px #ffccd5, 260px 30px #ffccd5, 330px 30px #ffccd5, 380px 10px #ffccd5;
+    box-shadow: 50px 20px #0dc4e4, 120px 40px #0dc4e4, 200px 15px #0dc4e4, 260px 30px #0dc4e4, 330px 30px #0dc4e4, 380px 10px #0dc4e4;
 }
 
 .clouds {
@@ -107,7 +107,7 @@ body {
     border-radius: 50% 50% 50% 0;
     width: 21px;
     height: 20px;
-    background-color: #c9184a;
+    background-color: #110eeb;
     left: -0.26px;
 }
 
@@ -115,7 +115,7 @@ body {
     height: 0;
     width: 0;
     border-bottom: 10px solid transparent;
-    border-left: 15px solid #c9184a;
+    border-left: 15px solid #110eeb;
     top: 19px;
     left: -0.26px;
 }
@@ -145,7 +145,7 @@ body {
     width: 20px;
     height: 20px;
     left: -20.7px;
-    background-color: #ff4d6d;
+    background-color: #487ff7;
 }
 
 .left-side:after {
@@ -153,7 +153,7 @@ body {
     width: 0;
     left: -15px;
     border-bottom: 10px solid transparent;
-    border-right: 15px solid #ff4d6d;
+    border-right: 15px solid #238aff;
     top: 19px;
 }
 
@@ -179,7 +179,7 @@ body {
 
 .text {
     position: absolute;
-    color: #800f2f;
+    color: #0f6680;
     font-size: 30px;
     font-family: 'Pacifico', cursive;
     line-height: 1;
@@ -203,7 +203,7 @@ body {
 }
 
 .text:hover:before {
-    content: "8/3 vui vẻ nhé, mong ní luôn xinh đẹp và hạnh phúc hehe <3";
+    content: "8/3 vui vẻ nhé, mong Hằng luôn xinh đẹp và hạnh phúc hehe <3";
     font-size: 28px;
 
 }
